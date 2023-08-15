@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,9,121,1) 62%, rgba(186,0,255,1) 100%);
+}
+
+.container {
+    margin-top: 4%;
+    width: 70vw;
+    height: 80vh;
+    background-color: #070604;
+    border-radius: 20px;
+    opacity: 70%;
+}
+
+/* NAVBAR  */
+
+.navbar {
+    display: flex;
+    width: 80%;
+    border-bottom: 1px solid white;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-left: 20%;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+/* SEÇÃO DA ESQUERDA */
+
+.left_section {
+    border-right: 1px solid white;
+    width: 20%;
+    height: 100%;
+    margin-top: -1.98rem;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 60%;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.left_section h3 {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 4rem;
+}
+
+/* IMAGENS DA SEÇÃO ESQUERDA */
+
+.grad-images {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.grad-images img{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* MESSAGE LEFT SECTION */
+
+.message-left-section {
+    margin-top: 2rem;
+}
+
+.message {
+    color: #fff;
+    padding: 0px 10px 0px 10px;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+    margin-top: 3rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media img{
+    width: 3rem;
+    height: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+    color: #fff;
+    margin-top: 2rem;
+}
+
+footer span {
+    color: red;
+}
